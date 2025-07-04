@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "location": "San Francisco, CA",
+    "experience": "5 years",
+    "role": "Frontend Developer",
+    "backgroundUrl": "https://via.placeholder.com/600x200.png?text=Alice+Background",
+    "avatarUrl": "https://via.placeholder.com/80.png?text=AJ"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "location": "New York, NY",
+    "experience": "7 years",
+    "role": "Full Stack Engineer",
+    "backgroundUrl": "https://via.placeholder.com/600x200.png?text=Bob+Background",
+    "avatarUrl": "https://via.placeholder.com/80.png?text=BS"
+  },
+  {
+    "id": 3,
+    "name": "Carol Lee",
+    "location": "Austin, TX",
+    "experience": "3 years",
+    "role": "Backend Developer",
+    "backgroundUrl": "https://via.placeholder.com/600x200.png?text=Carol+Background",
+    "avatarUrl": "https://via.placeholder.com/80.png?text=CL"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "location": "Seattle, WA",
+    "experience": "4 years",
+    "role": "UI/UX Designer",
+    "backgroundUrl": "https://via.placeholder.com/600x200.png?text=David+Background",
+    "avatarUrl": "https://via.placeholder.com/80.png?text=DK"
+  },
+  {
+    "id": 5,
+    "name": "Eva Zhang",
+    "location": "Chicago, IL",
+    "experience": "6 years",
+    "role": "DevOps Engineer",
+    "backgroundUrl": "https://via.placeholder.com/600x200.png?text=Eva+Background",
+    "avatarUrl": "https://via.placeholder.com/80.png?text=EZ"
+  }
+]
