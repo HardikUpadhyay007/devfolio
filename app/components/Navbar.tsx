@@ -3,11 +3,7 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
 
-interface NavbarProps {
-    theme?: "light" | "dark";
-}
-
-const Navbar: React.FC<NavbarProps> = ({ theme = "dark" }) => {
+const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (

@@ -1,16 +1,7 @@
 "use client";
 
 import React from "react";
-import {
-    ArrowRight,
-    Github,
-    Copy,
-    Eye,
-    Code2,
-    Zap,
-    Users,
-    Star,
-} from "lucide-react";
+import { ArrowRight, Github, Eye, Code2, Zap } from "lucide-react";
 import Navbar from "./Navbar";
 
 interface HeroProps {
@@ -29,8 +20,8 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
     const isPatternDark = theme === "dark";
 
     return (
-        <section className="w-full h-screen text-center relative overflow-hidden px-4 sm:px-6 lg:px-8 flex items-center justify-center transform translate-x-4 snap-start">
-            <Navbar theme={theme} />
+        <section className="w-full h-screen text-center relative overflow-hidden px-4 sm:px-6 lg:px-8 flex items-center justify-center transform translate-x-4">
+            <Navbar />
 
             <div className="mx-auto max-w-6xl relative z-10">
                 {/* Badge */}
@@ -185,7 +176,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                 </div>
 
                 {/* CTA buttons */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 px-4 sm:px-0">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mb-10 sm:mb-14 max-w-4xl mx-auto px-4 sm:px-0">
                     <button
                         className={`cursor-pointer gap-2 px-4 sm:px-8 py-3 text-sm sm:text-base font-medium shadow-lg transition-all duration-300 flex-1 sm:flex-none rounded-lg flex items-center justify-center ${
                             isPatternDark
@@ -215,61 +206,19 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                     </button>
                 </div>
 
-                {/* Stats */}
-                <div
-                    className={`flex items-center justify-center gap-6 sm:gap-8 md:gap-12 mt-12 sm:mt-16 md:mt-18 pt-6 sm:pt-8 border-t transition-all duration-300 ${
-                        isPatternDark
-                            ? "border-white/20"
-                            : "border-gray-300 dark:border-gray-700"
-                    }`}
-                >
-                    <div className="text-center">
-                        <div
-                            className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
-                                isPatternDark ? "text-white" : ""
-                            }`}
-                        >
-                            50+
-                        </div>
-                        <div
-                            className={`text-xs sm:text-sm transition-colors duration-300 ${
-                                isPatternDark ? "text-gray-300" : ""
-                            }`}
-                        >
-                            Users
-                        </div>
-                    </div>
-                    <div className="text-center">
-                        <div
-                            className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
-                                isPatternDark ? "text-white" : ""
-                            }`}
-                        >
-                            Big
-                        </div>
-                        <div
-                            className={`text-xs sm:text-sm transition-colors duration-300 ${
-                                isPatternDark ? "text-gray-300" : ""
-                            }`}
-                        >
-                            Community
-                        </div>
-                    </div>
-                    <div className="text-center">
-                        <div
-                            className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
-                                isPatternDark ? "text-white" : ""
-                            }`}
-                        >
-                            Showcase
-                        </div>
-                        <div
-                            className={`text-xs sm:text-sm transition-colors duration-300 ${
-                                isPatternDark ? "text-gray-300" : ""
-                            }`}
-                        >
-                            & Grow
-                        </div>
+                {/* Rolling Ticker */}
+                <div className="w-full py-6 overflow-hidden">
+                    <div className="flex animate-marquee whitespace-nowrap">
+                        <span className="text-white text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide">
+                            50+ Users&nbsp;&nbsp;&bull;&nbsp;&nbsp;Big
+                            Community&nbsp;&nbsp;&bull;&nbsp;&nbsp;Showcase &
+                            Grow&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        </span>
+                        <span className="text-white text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide">
+                            50+ Users&nbsp;&nbsp;&bull;&nbsp;&nbsp;Big
+                            Community&nbsp;&nbsp;&bull;&nbsp;&nbsp;Showcase &
+                            Grow&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                        </span>
                     </div>
                 </div>
             </div>

@@ -25,10 +25,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}
             >
-                {/* Global Navy Blue Grid Background with scroll snap */}
-                <div className="relative w-full h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth bg-[#0f172a]">
+                {/* Global Navy Blue Grid Background with normal scroll */}
+                <div className="relative w-screen h-screen overflow-y-scroll overflow-x-hidden bg-[#0f172a]">
                     <div
                         className="absolute inset-0 z-0"
                         style={{
