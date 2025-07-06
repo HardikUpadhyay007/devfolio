@@ -28,11 +28,17 @@ const Navbar: React.FC = () => {
             </a>
 
             <div className="hidden flex-1 justify-end gap-2 lg:inline-flex">
+                <a
+                    href="/browse"
+                    className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer"
+                >
+                    Browse Profiles
+                </a>
                 <button className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer">
-                    Log in
+                    Sign In
                 </button>
                 <button className="px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-gray-100 transition cursor-pointer">
-                    Sign up
+                    Join DevFolio
                 </button>
             </div>
 
@@ -48,11 +54,17 @@ const Navbar: React.FC = () => {
                 {/* Mobile dropdown menu */}
                 {isOpen && (
                     <div className="absolute top-full right-6 mt-2 bg-gray-800 rounded-md shadow-lg flex flex-col gap-2 p-4 min-w-[180px]">
+                        <a
+                            href="/browse"
+                            className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer text-left"
+                        >
+                            Browse Profiles
+                        </a>
                         <button className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer text-left">
-                            Log in
+                            Sign In
                         </button>
                         <button className="px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-gray-100 transition cursor-pointer text-left">
-                            Sign up
+                            Join DevFolio
                         </button>
                     </div>
                 )}

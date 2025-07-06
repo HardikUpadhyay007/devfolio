@@ -6,7 +6,8 @@
         "experience": "5 years",
         "role": "Frontend Developer",
         "backgroundUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": true
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "experience": "7 years",
         "role": "Full Stack Engineer",
         "backgroundUrl": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": false
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "experience": "3 years",
         "role": "Backend Developer",
         "backgroundUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": true
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "experience": "4 years",
         "role": "UI/UX Designer",
         "backgroundUrl": "https://images.unsplash.com/photo-1596720426673-74ba3bb6e407?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": false
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "experience": "6 years",
         "role": "DevOps Engineer",
         "backgroundUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": true
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "experience": "8 years",
         "role": "Tech Lead",
         "backgroundUrl": "https://images.unsplash.com/photo-1486312338219-ce68e2c6b696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": false
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "experience": "2 years",
         "role": "Mobile Developer",
         "backgroundUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": true
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "experience": "5 years",
         "role": "Data Scientist",
         "backgroundUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": false
     },
     {
         "id": 9,
@@ -78,6 +86,7 @@
         "experience": "4 years",
         "role": "Product Manager",
         "backgroundUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-        "avatarUrl": "https://images.unsplash.com/photo-1619946794135-5bc917a27793?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
+        "avatarUrl": "https://images.unsplash.com/photo-1619946794135-5bc917a27793?w=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+        "isPremium": false
     }
 ]

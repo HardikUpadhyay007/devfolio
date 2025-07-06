@@ -18,6 +18,7 @@ const UserCards: React.FC = () => {
                     experience={user.experience}
                     avatarUrl={user.avatarUrl}
                     backgroundUrl={user.backgroundUrl}
+                    isPremium={user.isPremium || false}
                 />
             ))}
         </div>

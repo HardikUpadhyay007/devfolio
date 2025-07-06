@@ -12,12 +12,12 @@ const PortfolioSection = () => {
             {/* Heading and description */}
             <div className="relative z-10 text-center mb-6 sm:mb-8">
                 <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3 sm:mb-4">
-                    Showcase Your Portfolio
+                    Featured Developer Profiles
                 </h2>
                 <p className="text-sm sm:text-lg text-gray-300 max-w-2xl mx-auto px-4">
-                    Explore and filter through user-submitted portfolios to find
-                    inspiration and see real-world examples crafted by talented
-                    developers.
+                    Meet talented developers from our community. Join DevFolio
+                    to create your own professional profile and connect with
+                    peers in the industry.
                 </p>
             </div>
             {/* User cards grid */}

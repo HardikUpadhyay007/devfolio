@@ -10,14 +10,15 @@ export default function Features() {
                     POWERFUL FEATURES
                 </div>
                 <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-                    Everything You Need to Stand Out
+                    Build Your Developer Profile
                 </h2>
                 <p className="text-lg text-gray-400 max-w-3xl mx-auto px-4">
-                    Create stunning developer portfolios with professional
-                    templates, powerful customization tools, and seamless
-                    integrations.
+                    Create a stunning developer profile with professional
+                    templates, powerful analytics, and premium visibility
+                    features.
                     <br />
-                    Join thousands of developers showcasing their best work
+                    Join our community of developers and stand out from the
+                    crowd
                 </p>
             </div>
 
@@ -29,14 +30,14 @@ export default function Features() {
                         <div className="mb-6">
                             <div className="text-3xl mb-4">🎨</div>
                             <h3 className="text-2xl font-bold text-white mb-4">
-                                Professional Templates
+                                Professional Profile Templates
                             </h3>
                             <p className="text-gray-400 text-lg leading-relaxed mb-6">
-                                Choose from a curated collection of modern,
-                                responsive portfolio templates. Each design is
-                                crafted specifically for developers to showcase
-                                projects, skills, and experience in the best
-                                light.
+                                Choose from beautiful, responsive templates
+                                designed specifically for developer profiles.
+                                Showcase your projects, skills, and experience
+                                with professional layouts that make you stand
+                                out.
                             </p>
                         </div>
                         {/* Mock Portfolio Interface */}
@@ -69,13 +70,13 @@ export default function Features() {
                         <div className="mb-6">
                             <div className="text-3xl mb-4">�</div>
                             <h3 className="text-xl font-bold text-white mb-4">
-                                Portfolio Analytics
+                                Profile Analytics
                             </h3>
                             <p className="text-gray-400 leading-relaxed mb-6">
-                                Track visitor engagement, project views, and
-                                contact form submissions. Get insights into
-                                which projects resonate most with potential
-                                employers and clients.
+                                Track who views your profile, which projects get
+                                the most attention, and optimize your
+                                visibility. Get insights to help you attract
+                                better opportunities.
                             </p>
                         </div>
                         {/* Mock Chart */}
@@ -100,13 +101,13 @@ export default function Features() {
                         <div className="mb-4">
                             <div className="text-2xl mb-3">🚀</div>
                             <h3 className="text-lg font-bold text-white mb-3">
-                                One-Click Deploy
+                                One-Click Profile Sharing
                             </h3>
                             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                                Deploy your portfolio instantly to custom
-                                domains or popular hosting platforms. No
-                                technical setup required - just click and go
-                                live.
+                                Share your DevFolio profile with a single link.
+                                Perfect for job applications, networking, and
+                                social media. Your profile, instantly
+                                accessible.
                             </p>
                         </div>
                         {/* Mock Deployment Interface */}
@@ -134,13 +135,12 @@ export default function Features() {
                         <div className="mb-4">
                             <div className="text-2xl mb-3">⚡</div>
                             <h3 className="text-lg font-bold text-white mb-3">
-                                Smart Integrations
+                                GitHub Integration
                             </h3>
                             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                                Connect your GitHub repositories, LinkedIn
-                                profile, and other developer platforms.
-                                Automatically sync your latest projects and
-                                achievements.
+                                Connect your GitHub to automatically showcase
+                                your latest repositories and contributions. Keep
+                                your profile updated with minimal effort.
                             </p>
                         </div>
                         {/* Mock Integration Interface */}
@@ -168,12 +168,12 @@ export default function Features() {
                         <div className="mb-4">
                             <div className="text-2xl mb-3">🌐</div>
                             <h3 className="text-lg font-bold text-white mb-3">
-                                SEO Optimized
+                                Premium Visibility
                             </h3>
                             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                                Built with SEO best practices to help recruiters
-                                and clients find you. Optimized meta tags,
-                                structured data, and fast loading speeds.
+                                Upgrade to premium for golden-outlined profile
+                                cards that stand out in search results. Increase
+                                your visibility and attract more opportunities.
                             </p>
                         </div>
                         {/* Mock SEO Interface */}
@@ -202,18 +202,18 @@ export default function Features() {
             {/* CTA Section */}
             <div className="text-center">
                 <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                    Ready to Showcase Your Work?
+                    Ready to Build Your Profile?
                 </h3>
                 <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto px-4">
-                    Join thousands of developers who are already using DevFolio
-                    to showcase their skills and land their dream jobs.
+                    Join DevFolio and create a professional developer profile
+                    that showcases your skills and attracts opportunities.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                        Get Started Free
+                        Join DevFolio
                     </button>
                     <button className="border border-gray-600 hover:border-gray-500 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                        View Templates
+                        Browse Profiles
                     </button>
                 </div>
             </div>

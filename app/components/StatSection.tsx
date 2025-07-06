@@ -9,23 +9,23 @@ interface Stat {
 const stats: Stat[] = [
     {
         id: 1,
-        number: "120+",
-        description: "Developers Showcased",
+        number: "2,500+",
+        description: "Active Developers",
     },
     {
         id: 2,
-        number: "50+",
-        description: "Portfolios Shared",
+        number: "15k+",
+        description: "Profile Views Daily",
     },
     {
         id: 3,
-        number: "80+",
-        description: "UI Components",
+        number: "89%",
+        description: "Premium User Growth",
     },
     {
         id: 4,
-        number: "11",
-        description: "Templates Available",
+        number: "24/7",
+        description: "Global Visibility",
     },
 ];
 

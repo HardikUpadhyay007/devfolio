@@ -37,10 +37,10 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                         </div>
-                        <span className="font-medium">New Devs</span>
+                        <span className="font-medium">New Developers</span>
                         <Zap className="h-3 w-3 text-orange-500" />
                         <span className="hidden sm:inline-flex items-center">
-                            Joining Everyday
+                            Joining
                         </span>
                         <ArrowRight className="h-3 w-3" />
                     </div>
@@ -56,7 +56,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                     : "text-gray-900 dark:text-gray-50"
                             }`}
                         >
-                            Craft Beautiful
+                            Join the Platform &
                         </span>
                     </h1>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold tracking-tight">
@@ -67,7 +67,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                     : "from-neutral-900 via-slate-500 to-neutral-500 dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
                             }`}
                         >
-                            Developer Portfolios
+                            Showcase Your Skills
                         </span>
                     </h2>
                 </div>
@@ -80,10 +80,10 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                             : "text-gray-600 dark:text-gray-200"
                     }`}
                 >
-                    Professional-grade portfolio templates and components.
-                    Easily customize and seamlessly showcase your projects.
-                    <span className="block">
-                        Crafted with modern React and Tailwind CSS
+                    Create your developer profile, showcase your work, and get
+                    discovered.
+                    <span className="block mt-2 text-yellow-400 font-medium">
+                        Go Premium for golden visibility ✨
                     </span>
                 </p>
 
@@ -119,7 +119,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                         : "text-gray-900"
                                 }`}
                             >
-                                Register & Showcasee
+                                Join & Showcase
                             </h3>
                             <p
                                 className={`text-xs transition-colors duration-300 ${
@@ -128,7 +128,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                         : "text-gray-600"
                                 }`}
                             >
-                                Get on the showcase
+                                Build your profile
                             </p>
                         </div>
                     </div>
@@ -160,7 +160,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                         : "text-gray-900"
                                 }`}
                             >
-                                Live Preview
+                                Premium
                             </h3>
                             <p
                                 className={`text-xs transition-colors duration-300 ${
@@ -169,7 +169,7 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                         : "text-gray-600"
                                 }`}
                             >
-                                See portfolios in action
+                                Stand out with gold
                             </p>
                         </div>
                     </div>
@@ -184,14 +184,12 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                                 : "bg-slate-950 hover:bg-slate-900 dark:bg-white dark:text-black dark:hover:bg-gray-100"
                         }`}
                         onClick={() => {
-                            window.open(
-                                "https://github.com/your-repo/devfolio#contributing",
-                                "_blank"
-                            );
+                            // Navigate to registration page
+                            window.location.href = "/register";
                         }}
                     >
                         <Github className="h-4 sm:h-5 w-4 sm:w-5" />
-                        Create Your Profile
+                        Join Now
                     </button>
                     <button
                         className={`cursor-pointer gap-2 px-4 sm:px-8 py-3 text-sm sm:text-base font-medium shadow-lg transition-all duration-300 flex-1 sm:flex-none rounded-lg flex items-center justify-center ${
@@ -201,8 +199,8 @@ export const HeroSection = ({ theme = "dark" }: HeroProps) => {
                         }`}
                         onClick={handleBrowsePortfoliosClick}
                     >
-                        <Code2 className="h-4 sm:h-5 w-4 sm:w-5" />
-                        Browse Developers
+                        <Eye className="h-4 sm:h-5 w-4 sm:w-5" />
+                        Browse Profiles
                     </button>
                 </div>
 

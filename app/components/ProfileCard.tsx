@@ -9,6 +9,7 @@ export interface ProfileCardProps {
     experience?: string;
     avatarUrl?: string;
     backgroundUrl?: string;
+    isPremium?: boolean;
 }
 
 const ProfileCard: React.FC<ProfileCardProps> = ({
@@ -18,9 +19,25 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
     experience,
     avatarUrl,
     backgroundUrl,
+    isPremium = false,
 }) => {
     return (
-        <div className="group w-full max-w-xs min-h-[240px] bg-white/10 backdrop-blur-md backdrop-brightness-125 border border-white/30 rounded-3xl shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-2xl transition-all duration-300">
+        <div
+            className={`group w-full max-w-xs min-h-[240px] bg-white/10 backdrop-blur-md backdrop-brightness-125 border ${
+                isPremium
+                    ? "border-yellow-400/80 shadow-yellow-400/20 shadow-lg"
+                    : "border-white/30"
+            } rounded-3xl shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-2xl transition-all duration-300 relative`}
+        >
+            {/* Premium badge */}
+            {isPremium && (
+                <div className="absolute top-3 right-3 z-10">
+                    <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black text-xs font-bold px-2 py-1 rounded-full flex items-center">
+                        <span className="mr-1">✨</span>
+                        PREMIUM
+                    </div>
+                </div>
+            )}
             <div
                 className="relative h-20 bg-cover bg-center flex-shrink-0"
                 style={{ backgroundImage: `url(${backgroundUrl})` }}
