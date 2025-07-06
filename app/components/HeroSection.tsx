@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ArrowRight, Github, Eye, Code2, Zap } from "lucide-react";
+import { ArrowRight, Github, Eye, Zap } from "lucide-react";
 import Navbar from "./Navbar";
 
 interface HeroProps {
