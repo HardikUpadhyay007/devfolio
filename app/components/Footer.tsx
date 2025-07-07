@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ExternalLink } from "lucide-react";
+// import { ExternalLink } from "lucide-react";
 
 export default function Footer() {
     return (
