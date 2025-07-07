@@ -34,10 +34,16 @@ const Navbar: React.FC = () => {
                 >
                     Browse Profiles
                 </a>
-                <button className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer">
+                <button
+                    className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer"
+                    onClick={() => (window.location.href = "/login")} // Navigate to login
+                >
                     Sign In
                 </button>
-                <button className="px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-gray-100 transition cursor-pointer">
+                <button
+                    className="px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-gray-100 transition cursor-pointer"
+                    onClick={() => (window.location.href = "/register")} // Navigate to register
+                >
                     Join DevFolio
                 </button>
             </div>
@@ -60,10 +66,16 @@ const Navbar: React.FC = () => {
                         >
                             Browse Profiles
                         </a>
-                        <button className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer text-left">
+                        <button
+                            className="px-4 py-2 bg-transparent text-white rounded-md font-medium hover:bg-gray-700 transition cursor-pointer text-left"
+                            onClick={() => (window.location.href = "/login")} // Navigate to login
+                        >
                             Sign In
                         </button>
-                        <button className="px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-gray-100 transition cursor-pointer text-left">
+                        <button
+                            className="px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-gray-100 transition cursor-pointer text-left"
+                            onClick={() => (window.location.href = "/register")} // Navigate to register
+                        >
                             Join DevFolio
                         </button>
                     </div>
